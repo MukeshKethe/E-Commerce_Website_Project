@@ -5,8 +5,8 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import razorpay
-razorpay_key_id = "rzp_test_ntMTULsEyC597M"
-razorpay_key_secret = "BzrYHu7RDD8ltjNymBIHyVTR"
+razorpay_key_id = "your_razorpay_key_id"
+razorpay_key_secret = "your_razorpay_key_secret"
 client = razorpay.Client(auth=(razorpay_key_id,razorpay_key_secret))
 verifyotp = "0"
 
