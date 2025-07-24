@@ -58,9 +58,9 @@ def registerdata():
             print(verifyotp)
             smtp_server = "smtp.gmail.com"
             smtp_port = 587
-            mailusername = "mukeshkethe009@gmail.com"
-            mailpassword = "ezgb mquo wkvo yjne"
-            from_email = "mukeshkethe009@gmail.com.com"
+            mailusername = "Your_Mail_Id"
+            mailpassword = "Your_Mail_App_Password"
+            from_email = "Your_Mail_Id"
             to_email = email
             subject = "OTP for Verification"
             body = f"The OTP for login is {verifyotp}"
